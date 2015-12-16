@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
-    <application name="SlamdunQ Cricket" >
+    <application name="TizenSensor" >
         <serviceProfile
-            id="cricket-tizen"
-            name="crickettizen"
+            id="TizenSensor"
+            name="TizenSensor"
             autoLaunchAppId="PfRM7M65X1.tizenwebsample"
             role="provider"
             version="1.0"

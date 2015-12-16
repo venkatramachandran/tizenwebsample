@@ -8,7 +8,12 @@
     <feature name="http://tizen.org/feature/network.bluetooth"/>
     <feature name="http://tizen.org/feature/network.internet"/>
     <feature name="http://tizen.org/feature/sensor.magnetometer"/>
+    <feature name="http://developer.samsung.com/tizen/feature/network.accessory_protocol"/>
+    
     <icon src="splash_logo.png" height="117" width="117"/>
     <name>SlamdunQ Cricket</name>
     <tizen:profile name="wearable"/>
+    <tizen:privilege name="http://developer.samsung.com/privilege/accessoryprotocol"/>
+    <tizen:metadata key="AccessoryServicesLocation" value="res/xml/accessoryservices.xml"/>
+    <tizen:setting background-support="enable" encryption="disable" hwkey-event="enable"/>
 </widget>
