@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://www.slamdunq.com/cricket-tizen" version="1.0.0" viewmodes="maximized">
+    <tizen:application id="PfRM7M65X1.tizenwebsample" package="PfRM7M65X1" required_version="2.3"/>
+    <content src="index.html"/>
+    <feature name="http://tizen.org/feature/screen.size.all"/>
+    <feature name="http://tizen.org/feature/sensor.gyroscope"/>
+    <feature name="http://tizen.org/feature/sensor.accelerometer"/>
+    <feature name="http://tizen.org/feature/network.bluetooth"/>
+    <feature name="http://tizen.org/feature/network.internet"/>
+    <feature name="http://tizen.org/feature/sensor.magnetometer"/>
+    <icon src="splash_logo.png" height="117" width="117"/>
+    <name>SlamdunQ Cricket</name>
+    <tizen:profile name="wearable"/>
+</widget>
